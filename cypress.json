@@ -1,8 +1,9 @@
 {
-	"baseUrl": "http://localhost:3000",
+	"baseUrl": "https://autokudos-strava.vercel.app/",
 	"env": {
+		"projectId": "kbo9wz",
 		"__comment_TODO": "Update Strava credential for local",
-		"STRAVA_USERNAME": "",
-		"STRAVA_PW": ""
+		"STRAVA_USERNAME": "process.ENV.CYPRESS_STRAVA_USERNAME",
+		"STRAVA_PW": "process.ENV.CYPRESS_STRAVA_PW"
 	}
 }
